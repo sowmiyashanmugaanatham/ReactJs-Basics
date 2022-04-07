@@ -1,17 +1,14 @@
 
 import React, { useReducer } from 'react'
 import './App.css'
-import RefsDemo from './Components/RefsDemo'
-
-
-
+import DocTitleOne from './Components/DocTitleOne'
+import DocTitleTwo from './Components/DocTitleTwo'
 function App() {
   return (
     <div className='App'>
-      <RefsDemo />
+      <DocTitleOne /> 
+      <DocTitleTwo />
     </div>
-    
   )
 }
-
 export default App
