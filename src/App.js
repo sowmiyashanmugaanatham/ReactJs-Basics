@@ -1,13 +1,14 @@
 
 import React, { useReducer } from 'react'
 import './App.css'
-import ParentComponent from './Components/ParentComponent'
+import RefsDemo from './Components/RefsDemo'
+
 
 
 function App() {
   return (
     <div className='App'>
-      <ParentComponent />
+      <RefsDemo />
     </div>
     
   )
