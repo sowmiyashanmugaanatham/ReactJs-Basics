@@ -7,6 +7,7 @@ import  ComponentC from './Components/ComponentC.JS'
 
 export const CountContext= React.createContext()
 
+console.log("test")
 
 
 const initialState = 0
