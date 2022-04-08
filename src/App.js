@@ -1,14 +1,14 @@
 
 import React, { useReducer } from 'react'
 import './App.css'
-import CounterOne from './Components/CounterOne'
-import CounterTwo from './Components/CounterTwo'
+import UserForm from './Components/UserForm'
+
 
 function App() {
   return (
     <div className='App'>
-      <CounterOne />
-      <CounterTwo />
+    <UserForm />
+      
     </div>
   )
 }
