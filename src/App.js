@@ -1,14 +1,11 @@
 
 import React, { useReducer } from 'react'
 import './App.css'
-import UserForm from './Components/UserForm'
-
-
+import UseReducer from './Components/UseState/UseReducer/UseReducer'
 function App() {
   return (
     <div className='App'>
-    <UserForm />
-      
+      <UseReducer />  
     </div>
   )
 }
