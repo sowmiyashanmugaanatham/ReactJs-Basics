@@ -1,12 +1,11 @@
 
 import React, { useReducer } from 'react'
 import './App.css'
-import { ParentTwo } from './Components/Immutable State/Optimization/ParentTwo'
-
+import { ParentThree } from './Components/Immutable State/Incorrect Optimization/ParentThree'
 function App() {
   return (
     <div className='App'>
-       <ParentTwo />
+       <ParentThree />
     </div>
   )
 }
