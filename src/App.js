@@ -1,12 +1,16 @@
 
-import React, { useReducer } from 'react'
+import React from 'react'
 import './App.css'
+import  {ChildA} from './Components/Immutable State/Context/ContextChildren'
 import { ContextParent } from './Components/Immutable State/Context/ContextParent'
+
 
 function App() {
   return (
     <div className='App'>
-       <ContextParent />
+       <ContextParent>
+         <ChildA />
+       </ContextParent>
     </div>
   )
 }
